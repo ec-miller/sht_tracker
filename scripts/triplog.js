@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 // this pulls the SHT section data from a google sheet using Google's Sheets API and populates the table
-  const tripJSON = $.getJSON("https://sheets.googleapis.com/v4/spreadsheets/16fETxJUKElO-DvisVSISU-VrzB3OvKn1hwuee0MNCu8/values/erictriplog?key=AIzaSyBSjlW94owmh8gXyXu_73WlU2wbNyetI0o&valueRenderOption=UNFORMATTED_VALUE")
+  const tripJSON = $.getJSON("https://sheets.googleapis.com/v4/spreadsheets/16fETxJUKElO-DvisVSISU-VrzB3OvKn1hwuee0MNCu8/values/erictriplog?key=AIzaSyBSjlW94owmh8gXyXu_73WlU2wbNyetI0o&valueRenderOption=UNFORMATTED_VALUE&callback=?")
     .done(function(){
       const response = tripJSON.responseJSON
       let trips = '';
