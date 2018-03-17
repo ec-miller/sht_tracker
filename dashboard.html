@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- ====================== MASTER MASTER SECTION ============= -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- ========= WEBSITES META INFORMATION INCLUDING STATUS BAR COLOR FOR MOBILE BROWSERS ========== -->
+  <meta name="description" content="SHT - Dashboard 💪">
+  <meta name="msapplication-TileColor" content="#006400">
+  <meta name="theme-color" content="#006400">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#006400" />
+
+  <!-- ============= SOCIAL MEDIA META PROPERTIES ================== -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SHT - Dashboard 💪" />
+  <meta property="og:url" content="" />
+  <meta property="og:site_name" content="SHT Tracker" />
+  <meta property="og:image" content="/images/img_2372.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SHT - Dashboard 💪" />
+
+  <title>SHT - Dashboard 💪</title>
+
+  <!-- ======== CSS STYLESHEETS INCLUDING BOOTSTRAP 4 (https://getbootstrap.com) AND OPEN SANS FONT FROM GOOGLE ========= -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700">
+  <link rel="stylesheet" href="stylesheets/reboot.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <!-- ======== PAGE SPECIFIC STYLES ========= -->
+
+</head>
+
+<body>
+  <!-- ========  SKIP NAVIGATION NEEDED FOR SCREEN READERS ============ -->
+  <div id="skiplink" class="sr-only sr-only-focusable">
+    <!-- CHANGE HREF TO ID OF MAIN CONTENT SECTION  -->
+    <a href="#MainContent">skip to page content</a>
+  </div>
+
+  <!-- ========  WEBSITE NAVIGATION SECTION ============ -->
+  <nav id="MainNav" class="topnav">
+    <a href="dashboard.html" title="Dashboard">Dashboard</a>
+    <a href="thetrail.html" title="The Trail">The Trail</a>
+    <a href="triplog.html" title="Trip Log">Trip Log</a>
+    <a href="newtrip.html" title="New Trip">New Trip</a>
+    <a href="register.html" title="Register" class="float-right logRegister">Register</a>
+    <a href="login.html" title="Log In" class="float-right logRegister">Log In</a>
+    <a href="javascript:void(0);" class="icon">&#9776;</a>
+    <!-- TITLE INTEGRATED WITH NAVBAR -->
+    <div class="intro">
+      <h3 class = "mb-4">Superior Hiking Trail Tracker <i class="fas fa-leaf"></i></h3>
+      <h1>Dashboard</h1>
+    </div>
+  </nav>
+
+  <!-- ================ TITLE SEPARATE FROM NAVBAR SECTION (optional)============= -->
+  <!-- <div class="container-fluid">
+      <div class="row">
+          <div class="intro">
+              <h3>SHT Tracker</h3>
+              <h1>Dashboard</h1>
+          </div>
+      </div>
+  </div> -->
+  <!-- ================ END TITLE SEPARATE FROM NAVBAR SECTION =========== -->
+
+  <!-- ================== Dashboard SECTION ========================= -->
+  <div id="MainContent" class="container mt-5">
+    <div class= "row">
+      <div class = "col-6">
+        <div class="table-responsive">
+          <table id = "trips-table" class="table table-bordered table-striped">
+            <h3 class = "text-center mb-4">Eric's Stats</h3>
+            <thead>
+              <tr class = "header">
+                <th>Miles Hiked</th>
+                <th>Completion %</th>
+                <th>Trips Taken</th>
+                <th>Biggest Chunk Completed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>91.6</td>
+                <td>28.3%</td>
+                <td>4</td>
+                <td>Caribou River Wayside to Caribou Trail</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class = "col-6">
+        <div class="table-responsive">
+          <table id = "trips-table" class="table table-bordered table-striped">
+            <h3 class = "text-center mb-4">Hiker Buddies</h3>
+            <thead>
+              <tr class = "header">
+                <th>Rank</th>
+                <th>Hiker</th>
+                <th>Miles</th>
+                <th>Completion %</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1   <i class="fas fa-trophy"></i></td>
+                <td>Kyle</td>
+                <td>149.1</td>
+                <td>46%</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Dustin</td>
+                <td>134.7</td>
+                <td>41.6%</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Eric</td>
+                <td>91.6</td>
+                <td>28.3%</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Tarun</td>
+                <td>54.7</td>
+                <td>16.7%</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Todd</td>
+                <td>51.6</td>
+                <td>16%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="MainContent" class="container">
+    <div class="table-responsive">
+      <table id="trips-table" class="table table-bordered table-striped">
+        <h3 class = "text-center mb-4">Most Recent Trip</h3>
+        <thead>
+          <tr class="header">
+            <th>Trip Name</th>
+            <th>Year</th>
+            <th>Start Point</th>
+            <th>End Point</th>
+            <th>Miles</th>
+            <th>Hikers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>River Rats</td>
+            <td>2017</td>
+            <td>Caribou River Wayside</td>
+            <td>Temperance River State Park</td>
+            <td>17</td>
+            <td>Eric, Kyle, Dustin, Chris</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ====================== FOOTER ============= -->
+  <div id="footer" class="container-fluid mt-5 footer">
+      <p class="mb-0">This site is a collaborative effort between students in the 2018 Grow with Google Udacity Front-End Development Program. Thank you Google and Udacity!</p>
+  </div>
+
+  <!-- ======== jQuery first, then Popper.js, then Bootstrap JS ========= -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
+
+  <!-- ======== PAGE SPECIFIC JAVASCRIPT ========= -->
+
+
+</body>
+
+</html>

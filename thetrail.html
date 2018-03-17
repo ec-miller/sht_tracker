@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- ====================== MASTER MASTER SECTION ============= -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- ========= WEBSITES META INFORMATION INCLUDING STATUS BAR COLOR FOR MOBILE BROWSERS ========== -->
+  <meta name="description" content="SHT - The Trail 💪">
+  <meta name="msapplication-TileColor" content="#006400">
+  <meta name="theme-color" content="#006400">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#006400" />
+
+  <!-- ============= SOCIAL MEDIA META PROPERTIES ================== -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SHT - The Trail 💪" />
+  <meta property="og:url" content="" />
+  <meta property="og:site_name" content="SHT Tracker" />
+  <meta property="og:image" content="/images/img_2372.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SHT - The Trail 💪" />
+
+  <title>SHT - The Trail 💪</title>
+
+  <!-- ======== CSS STYLESHEETS INCLUDING BOOTSTRAP 4 (https://getbootstrap.com) AND OPEN SANS FONT FROM GOOGLE ========= -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700">
+  <link rel="stylesheet" href="stylesheets/reboot.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <!-- ======== PAGE SPECIFIC STYLES ========= -->
+
+</head>
+
+<body>
+  <!-- ========  SKIP NAVIGATION NEEDED FOR SCREEN READERS ============ -->
+  <div id="skiplink" class="sr-only sr-only-focusable">
+    <!-- CHANGE HREF TO ID OF MAIN CONTENT SECTION  -->
+    <a href="#MainContent">skip to page content</a>
+  </div>
+
+  <!-- ========  WEBSITE NAVIGATION SECTION ============ -->
+  <nav id="MainNav" class="topnav">
+    <a href="dashboard.html" title="Dashboard">Dashboard</a>
+    <a href="thetrail.html" title="The Trail">The Trail</a>
+    <a href="triplog.html" title="Trip Log">Trip Log</a>
+    <a href="newtrip.html" title="New Trip">New Trip</a>
+    <a href="register.html" title="Register" class="float-right logRegister">Register</a>
+    <a href="login.html" title="login" class="float-right logRegister">Log In</a>
+    <a href="javascript:void(0);" class="icon">&#9776;</a>
+    <!-- TITLE INTEGRATED WITH NAVBAR -->
+    <div class="intro">
+      <h3 class = "mb-4">Superior Hiking Trail Tracker <i class="fas fa-leaf"></i></h3>
+      <h1>The Trail</h1>
+    </div>
+  </nav>
+
+  <!-- ================ TITLE SEPARATE FROM NAVBAR SECTION (optional)============= -->
+  <!-- <div class="container-fluid">
+      <div class="row">
+          <div class="intro">
+              <h3>SHT Tracker</h3>
+              <h1>The Trail</h1>
+          </div>
+      </div>
+  </div> -->
+  <!-- ================ END ITLE SEPARATE FROM NAVBAR SECTION =========== -->
+
+  <!-- ================ SHT SECTION FILTERS SECTION ============= -->
+  <div id="filterButtons" class="container filterButtons mt-5 mb-5">
+    <div class="row mb-3 p-1 filterButtons">
+        <h3 class = "ml-1">Filter By Segment:</h3>
+    </div>
+    <div>
+      <div class="row">
+        <a id = "b1" data-key=".1" class="col-sm btn btn-outline-success btn-sm filterButtons p-2 ml-2 mr-2 mb-3" role="button" type="radio">MN/WI Border to Duluth</a>
+        <a id = "b2" data-key=".2" class="col-sm btn btn-outline-success btn-sm filterButtons p-2 ml-2 mr-2 mb-3" role="button" type="radio">Duluth to Two Harbors</a>
+        <a id = "b3" data-key=".3" class="col-sm btn btn-outline-success btn-sm filterButtons p-2 ml-2 mr-2 mb-3" role="button" type="radio">Two Harbors to Silver Bay</a>
+      </div>
+      <div class="row">
+        <a id = "b4" data-key=".4" class="col-sm btn btn-outline-success btn-sm filterButtons p-2 ml-2 mr-2 mb-3" role="button" type="radio">Silver Bay to Caribou River</a>
+        <a id = "b5" data-key=".5" class="col-sm btn btn-outline-success btn-sm filterButtons p-2 ml-2 mr-2 mb-3" role="button" type="radio">Caribou River to Lutsen</a>
+        <a id = "b6" data-key=".6" class="col-sm btn btn-outline-success btn-sm filterButtons p-2 ml-2 mr-2 mb-3" role="button" type="radio">Lutsen to Grand Marais</a>
+        <a id = "b7" data-key=".7" class="col-sm btn btn-outline-success btn-sm filterButtons p-2 ml-2 mr-2 mb-3" role="button" type="radio">Grand Marais to 270 Degree Overlook</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================== SECTIONS SECTION ========================= -->
+  <div id="MainContent" class="container">
+    <div class="table-responsive">
+      <table id = "sections-table" class="table table-bordered table-striped table-hover">
+        <thead>
+          <tr class = "header">
+            <th>Section Number</th>
+            <th>Segment</th>
+            <th>Section</th>
+            <th>Miles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JavaScript inserts the data here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ====================== FOOTER ============= -->
+  <div id="footer" class="container-fluid mt-5 footer invisible">
+      <p class="mb-0">This site is a collaborative effort between students in the 2018 Grow with Google Udacity Front-End Development Program. Thank you Google and Udacity!</p>
+  </div>
+
+  <!-- ======== jQuery first, then Popper.js, then Bootstrap JS ========= -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
+
+  <!-- ======== PAGE SPECIFIC JAVASCRIPT ========= -->
+  <script src="scripts/thetrail.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,402 @@
+[
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 1,
+   "Section": "MINNESOTA BORDER TO WILD VALLEY ROAD",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 3.2
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 2,
+   "Section": "WILD VALLEY ROAD TO JAY COOKE STATE PARK VISITOR CENTER",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 5.9
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 3,
+   "Section": "JAY COOKE STATE PARK VISITOR CENTER TO PALKIE ROAD",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 3
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 4,
+   "Section": "PALKIE ROAD TO FOND DU LAC",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 7.1
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 5,
+   "Section": "FOND DU LAC TO MUNGER TRAIL AT 123RD AVE WEST",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 3.4
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 6,
+   "Section": "123RD AVE WEST TO MAGNEY-SNIVELY PARK",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 4.3
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 7,
+   "Section": "MAGNEY-SNIVELY PARK TO SPIRIT MOUNTAIN",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 3.2
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 8,
+   "Section": "SPIRIT MOUNTAIN TO KINGSBURY CREEK",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 2
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 9,
+   "Section": "KINGSBURY CREEK TO SKYLINE PARKWAY AT HIGHLAND STREET",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 3.2
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 10,
+   "Section": "SKYLINE PARKWAY AT HIGHLAND STREET TO SKYLINE PARKWAY AT NORTH 24TH AVE WEST",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 5.7
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 11,
+   "Section": "SKYLINE PARKWAY AT NORTH 24TH AVE WEST TO TWIN PONDS AT ENGER PARK",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 1.7
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 12,
+   "Section": "TWIN PONDS AT ENGER PARK TO THE ROSE GARDEN",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 3.8
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 13,
+   "Section": "ROSE GARDEN TO HARTLEY NATURE CENTER",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 4.5
+ },
+ {
+   "SegNo": 1,
+   "Segment": "MN/WI Border to Duluth",
+   "SecNo": 14,
+   "Section": "HARTLEY NATURE CENTER TO MARTIN ROAD",
+   "URL": "http://shta.org/trail-section/mnwi-border-to-duluth/",
+   "Distance": 3.1
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 15,
+   "Section": "MARTIN ROAD TO LISMORE ROAD",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 6.9
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 16,
+   "Section": "LISMORE ROAD TO NORMANNA ROAD",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 6.9
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 17,
+   "Section": "NORMANNA ROAD TO SUCKER RIVER",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 9
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 18,
+   "Section": "SUCKER RIVER TO FOX FARM ROAD",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 5
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 19,
+   "Section": "FOX FARM ROAD TO ROSSINI ROAD",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 6.4
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 20,
+   "Section": "ROSSINI ROAD TO LAKE COUNTY DEMONSTRATION FOREST",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 6.9
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 21,
+   "Section": "LAKE COUNTY DEMONSTRATION FOREST TO REEVES ROAD",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 11
+ },
+ {
+   "SegNo": 2,
+   "Segment": "Duluth to Two Harbors",
+   "SecNo": 22,
+   "Section": "REEVES ROAD TO LAKE COUNTY ROAD 301",
+   "URL": "http://shta.org/trail-section/duluth-to-two-harbors/",
+   "Distance": 5.4
+ },
+ {
+   "SegNo": 3,
+   "Segment": "Two Harbors to Silver Bay",
+   "SecNo": 23,
+   "Section": "LAKE COUNTY ROAD 301 TO CASTLE DANGER",
+   "URL": "http://shta.org/trail-section/two-harbors-to-silver-bay/",
+   "Distance": 6.3
+ },
+ {
+   "SegNo": 3,
+   "Segment": "Two Harbors to Silver Bay",
+   "SecNo": 24,
+   "Section": "CASTLE DANGER TO GOOSEBERRY FALLS STATE PARK",
+   "URL": "http://shta.org/trail-section/two-harbors-to-silver-bay/",
+   "Distance": 9.1
+ },
+ {
+   "SegNo": 3,
+   "Segment": "Two Harbors to Silver Bay",
+   "SecNo": 25,
+   "Section": "GOOSEBERRY FALLS STATE PARK TO SPLIT ROCK RIVER WAYSIDE",
+   "URL": "http://shta.org/trail-section/two-harbors-to-silver-bay/",
+   "Distance": 6.9
+ },
+ {
+   "SegNo": 3,
+   "Segment": "Two Harbors to Silver Bay",
+   "SecNo": 26,
+   "Section": "SPLIT ROCK RIVER LOOP AT SPLIT ROCK RIVER WAYSIDE",
+   "URL": "http://shta.org/trail-section/two-harbors-to-silver-bay/",
+   "Distance": 5
+ },
+ {
+   "SegNo": 3,
+   "Segment": "Two Harbors to Silver Bay",
+   "SecNo": 27,
+   "Section": "SPLIT ROCK RIVER WAYSIDE TO BEAVER BAY",
+   "URL": "http://shta.org/trail-section/two-harbors-to-silver-bay/",
+   "Distance": 11.3
+ },
+ {
+   "SegNo": 3,
+   "Segment": "Two Harbors to Silver Bay",
+   "SecNo": 28,
+   "Section": "BEAVER BAY TO SILVER BAY",
+   "URL": "http://shta.org/trail-section/two-harbors-to-silver-bay/",
+   "Distance": 4.7
+ },
+ {
+   "SegNo": 4,
+   "Segment": "Silver Bay to Caribou River Wayside",
+   "SecNo": 29,
+   "Section": "SILVER BAY TO TETTEGOUCHE STATE PARK AND HIGHWAY 1",
+   "URL": "http://shta.org/trail-section/silver-bay-to-caribou-river-wayside",
+   "Distance": 11.1
+ },
+ {
+   "SegNo": 4,
+   "Segment": "Silver Bay to Caribou River Wayside",
+   "SecNo": 30,
+   "Section": "HIGHWAY 1 TO LAKE COUNTY ROAD 6",
+   "URL": "http://shta.org/trail-section/silver-bay-to-caribou-river-wayside",
+   "Distance": 6.8
+ },
+ {
+   "SegNo": 4,
+   "Segment": "Silver Bay to Caribou River Wayside",
+   "SecNo": 31,
+   "Section": "LAKE COUNTY ROAD 6 TO CLAIR NELSON COMMUNITY CENTER",
+   "URL": "http://shta.org/trail-section/silver-bay-to-caribou-river-wayside",
+   "Distance": 7.6
+ },
+ {
+   "SegNo": 4,
+   "Segment": "Silver Bay to Caribou River Wayside",
+   "SecNo": 32,
+   "Section": "CLAIR NELSON COMMUNITY CENTER TO CROSBY-MANITOU STATE PARK",
+   "URL": "http://shta.org/trail-section/silver-bay-to-caribou-river-wayside",
+   "Distance": 11.8
+ },
+ {
+   "SegNo": 4,
+   "Segment": "Silver Bay to Caribou River Wayside",
+   "SecNo": 33,
+   "Section": "CROSBY-MANITOU RIVER STATE PARK TO CARIBOU RIVER WAYSIDE",
+   "URL": "http://shta.org/trail-section/silver-bay-to-caribou-river-wayside",
+   "Distance": 8
+ },
+ {
+   "SegNo": 5,
+   "Segment": "Caribou River Wayside to Lutsen",
+   "SecNo": 34,
+   "Section": "CARIBOU RIVER WAYSIDE TO COOK COUNTY ROAD 1",
+   "URL": "http://shta.org/trail-section/caribou-river-wayside-to-lutsen/",
+   "Distance": 9
+ },
+ {
+   "SegNo": 5,
+   "Segment": "Caribou River Wayside to Lutsen",
+   "SecNo": 35,
+   "Section": "COOK COUNTY ROAD 1 TO TEMPERANCE RIVER STATE PARK",
+   "URL": "http://shta.org/trail-section/caribou-river-wayside-to-lutsen/",
+   "Distance": 8
+ },
+ {
+   "SegNo": 5,
+   "Segment": "Caribou River Wayside to Lutsen",
+   "SecNo": 36,
+   "Section": "TEMPERANCE RIVER STATE PARK TO BRITTON PEAK",
+   "URL": "http://shta.org/trail-section/caribou-river-wayside-to-lutsen/",
+   "Distance": 4.8
+ },
+ {
+   "SegNo": 5,
+   "Segment": "Caribou River Wayside to Lutsen",
+   "SecNo": 37,
+   "Section": "BRITTON PEAK TO OBERG MOUNTAIN",
+   "URL": "http://shta.org/trail-section/caribou-river-wayside-to-lutsen/",
+   "Distance": 5.7
+ },
+ {
+   "SegNo": 5,
+   "Segment": "Caribou River Wayside to Lutsen",
+   "SecNo": 38,
+   "Section": "OBERG MOUNTAIN TO LUTSEN MOUNTAINS RECREATION AREA",
+   "URL": "http://shta.org/trail-section/caribou-river-wayside-to-lutsen/",
+   "Distance": 7
+ },
+ {
+   "SegNo": 6,
+   "Segment": "Lutsen to Grand Marais",
+   "SecNo": 39,
+   "Section": "LUTSEN MOUNTAINS RECREATION AREA TO CARIBOU TRAIL",
+   "URL": "http://shta.org/trail-section/lutsen-to-grand-marais",
+   "Distance": 6.4
+ },
+ {
+   "SegNo": 6,
+   "Segment": "Lutsen to Grand Marais",
+   "SecNo": 40,
+   "Section": "CARIBOU TRAIL TO CASCADE RIVER STATE PARK",
+   "URL": "http://shta.org/trail-section/lutsen-to-grand-marais",
+   "Distance": 11
+ },
+ {
+   "SegNo": 6,
+   "Segment": "Lutsen to Grand Marais",
+   "SecNo": 41,
+   "Section": "CASCADE RIVER STATE PARK TO BALLY CREEK ROAD",
+   "URL": "http://shta.org/trail-section/lutsen-to-grand-marais",
+   "Distance": 9.5
+ },
+ {
+   "SegNo": 6,
+   "Segment": "Lutsen to Grand Marais",
+   "SecNo": 42,
+   "Section": "BALLY CREEK ROAD TO GRAND MARAIS",
+   "URL": "http://shta.org/trail-section/lutsen-to-grand-marais",
+   "Distance": 8.3
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 43,
+   "Section": "GRAND MARAIS TO COOK COUNTY ROAD 58",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 4.9
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 44,
+   "Section": "COOK COUNTY ROAD 58 TO KADUNCE RIVER WAYSIDE",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 9.2
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 45,
+   "Section": "KADUNCE RIVER WAYSIDE TO JUDGE MAGNEY STATE PARK",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 10
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 46,
+   "Section": "JUDGE MAGNEY STATE PARK TO COUNTY ROAD 70",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 6.6
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 47,
+   "Section": "COUNTY ROAD 70 TO ARROWHEAD TRAIL",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 8.5
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 48,
+   "Section": "ARROWHEAD TRAIL TO JACKSON LAKE ROAD",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 5.1
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 49,
+   "Section": "JACKSON LAKE ROAD TO OTTER LAKE ROAD",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 8.7
+ },
+ {
+   "SegNo": 7,
+   "Segment": "Grand Marais to Otter Lake Road",
+   "SecNo": 50,
+   "Section": "Otter Lake Road to 270 Degree Overlook",
+   "URL": "http://shta.org/trail-section/grand-marais-to-otter-lake-road/",
+   "Distance": 1.2
+ }
+]
