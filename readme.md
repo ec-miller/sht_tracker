@@ -27,6 +27,8 @@ If you are new to Github check out these links to help you get started:
 https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/  
 https://education.github.com/git-cheat-sheet-education.pdf
 
+If you have an idea for the site that you would like to work on, feel free to create a new issue. I'll review it and get back to you.
+
 ## History
 
 Repository created March 16th, 2018
