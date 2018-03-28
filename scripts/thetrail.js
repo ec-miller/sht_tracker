@@ -59,8 +59,21 @@ $(document).ready(function() {
         let miles = $(this).find('td:last-child').text();
         miles = Number(miles);
         totalMiles += miles;
+
+        // grab the section number data from visible table rows, convert
+        // to numeric value
         sectionNumber = Number($(this).find('td:first-child').text());
+
+        // check if section number is in the variable containing the array
+        // of completed section numbers. If completed, add class to
+        // indicate completion to current row. Use $(this) instead of
+        // simply `this` because a jQuery selection is needed to
+        // use the addClass method. Using helper classes that already
+        // exist in bootstrap, see:
+        // https://getbootstrap.com/docs/4.0/content/tables/#contextual-classes
         if ($.inArray(sectionNumber,ericSections) > -1) {
+          // apply class if section is completed
+          $(this).addClass('table-info');
           completedInSegment += miles;
         }
       });
