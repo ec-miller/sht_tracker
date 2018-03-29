@@ -233,3 +233,23 @@ pre {
     margin-top: -0.5rem;
   }
 }
+
+.lne {
+  line-height: normal;
+}
+
+.table-nfo,
+.table-nfo > th,
+.table-nfo > td {
+  background-color: #28a745;
+  color: white;
+}
+
+.table-hover .table-nfo:hover {
+  background-color: #32CD32;
+}
+
+.table-hover .table-nfo:hover > td,
+.table-hover .table-nfo:hover > th {
+  background-color: #32CD32;
+}

@@ -73,7 +73,7 @@ $(document).ready(function() {
         // https://getbootstrap.com/docs/4.0/content/tables/#contextual-classes
         if ($.inArray(sectionNumber,ericSections) > -1) {
           // apply class if section is completed
-          $(this).addClass('table-info');
+          $(this).addClass('table-nfo');
           completedInSegment += miles;
         }
       });
