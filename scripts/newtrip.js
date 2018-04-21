@@ -7,7 +7,7 @@ function addInput(divName){
      }
      else {
           let newdiv = document.createElement('div');
-          newdiv.innerHTML = "Email " + (counter + 1) + ' <br><input type="text"  placeholder="Email" class="myEmail[]">';
+          newdiv.innerHTML = "Email " + (counter + 1) + ' <br><input type="text"  placeholder="Email" class="form-control">';
           document.getElementById(divName).appendChild(newdiv);
           counter++;
      }

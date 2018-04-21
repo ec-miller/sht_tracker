@@ -77,48 +77,44 @@
    <div class="row">
     <div class="col-12">
     <img src="images/IMG_2495.JPG" class="img-fluid" alt="trail-forest">
-  <!--  <h1 class="text-center mb-5">New Trip</h1>-->
+     <!-- <h1 class="text-center mb-5">New Trip</h1>-->
     <!--<h3 class="text-center mb-3">Elements:</h3>-->
     <div class="card text-center overshadow">
      <form method="POST">
-     <div class="col-sm-6 offset-sm-3">
-      <label for="inputTripName">Trip Name</label>
+     <div class="col-sm-6 offset-sm-3 mt-4 mb-4">
       <input type="text" class="form-control" placeholder="Trip Name">
      </div>
      <div class="form-group row  justify-content-center">
-     <div class="col-sm-4">
-       <label for="inputStartDate">Start Date</label>
+      <div class="col-sm-4 mt-4 mb-2">
        <input type="text" class="form-control" placeholder="Start Date">
-     </div>
-     <div class="col-sm-4">
-       <label for="inputEndDate">End Date</label>
+      </div>
+      <div class="col-sm-4 mt-4 mb-2">
        <input type="text" class="form-control" placeholder="End Date">
-     </div>
+      </div>
     </div>
     <div class="form-group row justify-content-center">
-     <div class="col-sm-4">
-      <label for="inputStartPoint">Start Point</label>
+     <div class="col-sm-4 mt-4 mb-2">
       <input type="text" class="form-control" placeholder="Start Point">
      </div>
-     <div class="col-sm-4">
-      <label for="inputEndPoint">End Point</label>
-      <input type="text" class="form-control" placeholder="End Point">
+     <div class="col-sm-4 mt-4 mb-2">
+       <input type="text" class="form-control"  placeholder="End Point">
       </div>
      </div>
-    <div class="form-group row   justify-content-center">
-     <div class="col-sm-4" id="dynamicInput">
-    <!--<label for="HikersEmail">Hiker's Email</label>-->
-      Hiker's Email<br><input type="text" class="myEmail[] form-control" placeholder="Enter Your Email">
+     <div class="form-group row   justify-content-center">
+      <div class="col-sm-4 mt-4 mb-2" id="dynamicInput">
+       <input type="text" class="form-control" placeholder="Enter Your E-mail">
       </div>
-
-        <input type="button" value="Add Another E-mail" onClick="addInput('dynamicInput');">
-
-      <div class="col-sm-4">
-        <label for="pictureFormControlFile1">Upload Picture</label>
+      <div class="col-sm-4 mt-4 mb-2">
         <input type="file"       class="form-control-file" id="pictureFormControlFile1">
+       </div>
       </div>
-      <div class="col-sm-4 mt-3">
-        <button class="btn btn-secondary" type="submit">Submit form</button>
+      <div class="row justify-content-center">
+        <div class="col-sm-4 mb-4">
+          <input type"button" class="btn  btn-secondary btn-md" value="Add E-mail" onClick="addInput('dynamicInput');">
+        </div>
+        <div class="col-sm-4 mb-4">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
        </div>
       </div>
      </div>
