@@ -56,7 +56,7 @@
     <!-- TITLE INTEGRATED WITH NAVBAR -->
     <div class="intro">
       <h3 class = "mb-4">Superior Hiking Trail Tracker <i class="fas fa-leaf"></i></h3>
-      <h1>Dashboard</h1>
+      <h1>New Trip</h1>
     </div>
   </nav>
 
@@ -72,18 +72,69 @@
   <!-- ================ END TITLE SEPARATE FROM NAVBAR SECTION =========== -->
 
   <!-- ================== NEW TRIP SECTION ========================= -->
-  <div id="MainContent" class="container mt-5">
+ <div id="MainContent" class="container mt-5">
     <!-- This section needs a background image -->
-    <h1 class="text-center mb-5">New Trip</h1>
-    <h3 class="text-center mb-3">Elements:</h3>
-    <p class="text-center">Trip Name</p></p>
+   <div class="row">
+    <div class="col-12">
+    <img src="images/IMG_2495.JPG" class="img-fluid" alt="trail-forest">
+     <!-- <h1 class="text-center mb-5">New Trip</h1>-->
+    <!--<h3 class="text-center mb-3">Elements:</h3>-->
+    <div class="card text-center overshadow">
+     <form method="POST">
+     <div class="col-sm-6 offset-sm-3 mt-4 mb-4">
+      <input type="text" class="form-control" placeholder="Trip Name">
+     </div>
+     <div class="form-group row  justify-content-center">
+      <div class="col-sm-4 mt-4 mb-2">
+       <input type="text" class="form-control" placeholder="Start Date">
+      </div>
+      <div class="col-sm-4 mt-4 mb-2">
+       <input type="text" class="form-control" placeholder="End Date">
+      </div>
+    </div>
+    <div class="form-group row justify-content-center">
+     <div class="col-sm-4 mt-4 mb-2">
+      <input type="text" class="form-control" placeholder="Start Point">
+     </div>
+     <div class="col-sm-4 mt-4 mb-2">
+       <input type="text" class="form-control"  placeholder="End Point">
+      </div>
+     </div>
+     <div class="form-group row   justify-content-center">
+      <div class="col-sm-4 mt-4 mb-2" id="dynamicInput">
+       <input type="text" class="form-control" placeholder="Enter Your E-mail">
+      </div>
+      <div class="col-sm-4 mt-4 mb-2">
+        <input type="file"       class="form-control-file" id="pictureFormControlFile1">
+       </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-4 mb-4">
+          <input type"button" class="btn  btn-secondary btn-md" value="Add E-mail" onClick="addInput('dynamicInput');">
+        </div>
+        <div class="col-sm-4 mb-4">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+       </div>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
+
+<!--input  class="text-center">Trip Name</p></p>
     <p class="text-center">Start Date</p></p>
     <p class="text-center">End Date</p>
     <p class="text-center">Start Point (custom select)</p>
     <p class="text-center">End Point (custom select)</p>
     <p class="text-center">Hikers (e-mail inputs - dynamic)</p></p>
     <p class="text-center">Picture (file input)</p></p>
+   </div>
   </div>
+</div>-->
+
 
   <!-- ====================== FOOTER ============= -->
   <div id="footer" class="container-fluid mt-5 footer">
@@ -99,7 +150,7 @@
   <script src="scripts/main.js"></script>
 
   <!-- ======== PAGE SPECIFIC JAVASCRIPT ========= -->
-
+  <script src="scripts/newtrip.js"></script>
 
 </body>
 
