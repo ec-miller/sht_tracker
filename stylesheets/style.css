@@ -88,20 +88,25 @@ h4 {
     background-color: rgba(255, 255, 255, 0.5);
 
 }
-input[type=text] {
+
+input {
+  border: 2px solid black !important;
+  background-color: white;
+}
+/* input[type=text] {
     border: 2px solid black;
     border-radius: 2px;
     box-sizing: border-box;
     background-color: white;
     padding: .375px .625px;
-    margin: .5px 0;
+    margin: .5px 0; */
 }
 
-input[type=text]:focus {
+/* input[type=text]:focus {
 background-color: lightblue;
-}
+} */
 
-input[type=file] {
+/* input[type=file] {
     border: 2px solid black;
     border-radius: 2px;
     box-sizing: border-box;
@@ -111,7 +116,7 @@ input[type=file] {
 }
 input[type=file]:focus {
 background-color: lightblue;
-}
+} */
 
 p {
     font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", "Ubuntu", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -242,6 +247,15 @@ pre {
 .footer p {
 	color:white;
 	text-align:center;
+}
+
+/*========= FORM INPUT CONTROL ==========*/
+
+input[type="text"], textarea {
+  background-color: white;
+  /* outline: none;
+  box-shadow:none !important;
+  border:1px solid #ccc !important; */
 }
 
 /*========= PAGE SPECIFIC CSS CAN GO HERE :) ==========*/
